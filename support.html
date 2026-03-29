@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Tickets</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">Support Tickets</div>
+
+    <div class="nav">
+        <a href="login.html">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="customers.html">Customers</a>
+        <a href="reports.html">Reports</a>
+        <a href="support.html">Support</a>
+    </div>
+
+    <div class="container">
+        <div class="actions">
+            <button onclick="showActionMessage('Create Ticket')">Create Ticket</button>
+            <button onclick="showActionMessage('Assign Ticket')">Assign Ticket</button>
+            <button onclick="showActionMessage('Close Ticket')">Close Ticket</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ticket ID</th>
+                    <th>Customer</th>
+                    <th>Issue</th>
+                    <th>Priority</th>
+                    <th>Status</th>
+                    <th>Region</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TCK-1001</td>
+                    <td>Alpine Retail Group</td>
+                    <td>Login access problem</td>
+                    <td>High</td>
+                    <td>Open</td>
+                    <td>United States</td>
+                </tr>
+                <tr>
+                    <td>TCK-1002</td>
+                    <td>Nordic Supply Partners</td>
+                    <td>Report export failure</td>
+                    <td>Medium</td>
+                    <td>In Progress</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>TCK-1003</td>
+                    <td>Pacific Horizon Trading</td>
+                    <td>Customer record sync delay</td>
+                    <td>High</td>
+                    <td>Escalated</td>
+                    <td>Singapore</td>
+                </tr>
+                <tr>
+                    <td>TCK-1004</td>
+                    <td>Summit Health Solutions</td>
+                    <td>Password reset request</td>
+                    <td>Low</td>
+                    <td>Resolved</td>
+                    <td>United States</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="card">
+            <h3>Support Summary</h3>
+            <p>The support ticket interface allows employees to monitor service issues across multiple regions.</p>
+            <p>Users can create, assign, update, and resolve tickets while tracking ticket priority and status.</p>
+        </div>
+    </div>
+</body>
+</html>

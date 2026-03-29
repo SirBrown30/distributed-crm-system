@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">Customer Management</div>
+
+    <div class="nav">
+        <a href="login.html">Login</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="customers.html">Customers</a>
+        <a href="reports.html">Reports</a>
+        <a href="support.html">Support</a>
+    </div>
+
+    <div class="container">
+        <div class="actions">
+            <button onclick="showActionMessage('Add Customer')">Add Customer</button>
+            <button onclick="showActionMessage('Edit Customer')">Edit Customer</button>
+            <button onclick="showActionMessage('Delete Customer')">Delete Customer</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Region</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alpine Retail Group</td>
+                    <td>support@alpineretail.com</td>
+                    <td>(555) 123-4100</td>
+                    <td>United States</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Nordic Supply Partners</td>
+                    <td>sales@nordicsupply.eu</td>
+                    <td>+49 30 5555 2211</td>
+                    <td>Germany</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Pacific Horizon Trading</td>
+                    <td>info@pacifichorizon.sg</td>
+                    <td>+65 6123 7788</td>
+                    <td>Singapore</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>Summit Health Solutions</td>
+                    <td>contact@summithealth.com</td>
+                    <td>(555) 909-8822</td>
+                    <td>United States</td>
+                    <td>Active</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

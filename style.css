@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #222;
+}
+
+.header {
+    background-color: #1f4e79;
+    color: white;
+    padding: 18px 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.login-box {
+    width: 360px;
+    margin: 70px auto;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 28px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+    .login-box h2 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 18px;
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #163a5a;
+    }
+
+.nav {
+    background-color: #e8eef5;
+    padding: 12px 24px;
+    border-bottom: 1px solid ;
+}
+
+    .nav a {
+        margin-right: 18px;
+        text-decoration: none;
+        color: #1f4e79;
+        font-weight: bold;
+    }
+
+.stats {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    padding: 18px;
+    width: 200px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.stat-title {
+    font-size: 14px;
+    color: #555555;
+}
+
+.stat-value {
+    font-size: 28px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #d9d9d9;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f4e79;
+    color: white;
+}
+
+.actions {
+    margin-bottom: 15px;
+}
+
+    .actions button {
+        margin-right: 10px;
+    }
+
+.chart-area {
+    display: flex;
+    align-items: flex-end;
+    gap: 35px;
+    height: 260px;
+    margin-top: 25px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+}
+
+.bar-group {
+    text-align: center;
+    width: 110px;
+}
+
+.bar {
+    width: 70px;
+    margin: 0 auto 10px auto;
+    background-color: #1f4e79;
+    border-radius: 6px 6px 0 0;
+}
+
+.footer-note {
+    margin-top: 16px;
+    color: #555555;
+    font-size: 14px;
+}
